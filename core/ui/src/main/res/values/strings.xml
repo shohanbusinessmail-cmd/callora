@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand & Navigation -->
+    <string name="app_name">Callora</string>
+    <string name="app_tagline">Smart Network Call Forwarding &amp; Multi-SIM Profiles</string>
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_sims">SIMs</string>
+    <string name="nav_profiles">Profiles</string>
+    <string name="nav_history">History</string>
+    <string name="nav_help">Help</string>
+    <string name="nav_settings">Settings</string>
+    <string name="cd_change_language">Switch application language</string>
+    <string name="cd_open_settings">Open Settings</string>
+    <string name="cd_navigate_back">Navigate back</string>
+
+    <!-- Language Selection & Onboarding (Screens 1 & 2) -->
+    <string name="onboarding_choose_language_title">Choose Your Language / ভাষা নির্বাচন করুন</string>
+    <string name="onboarding_choose_language_subtitle">You can switch between বাংলা and English anytime from the top bar or Settings.</string>
+    <string name="language_option_bengali">বাংলা (Bengali)</string>
+    <string name="language_option_english">English</string>
+    <string name="onboarding_step1_title">Network-Side Call Forwarding</string>
+    <string name="onboarding_step1_body">No Android app can run after your phone powers off or its battery reaches 0%. Callora helps you configure Call Forwarding When Unreachable (CFNRc — code 62) in advance on your mobile operator\'s network while your phone is still active.</string>
+    <string name="onboarding_step2_title">Honest Verification &amp; Multi-SIM Safety</string>
+    <string name="onboarding_step2_body">Opening the dialer does not prove carrier activation. Callora clearly separates your saved profile from verified network status and checks SIM slot identity so rules are never silently applied to the wrong SIM.</string>
+    <string name="onboarding_step3_title">Local-Only Privacy by Design</string>
+    <string name="onboarding_step3_body">Callora has no backend server and does not request Internet access. Your profiles, favorite numbers, and configuration history stay locally on your device.</string>
+    <string name="action_continue">Continue</string>
+    <string name="action_get_started">Start Using Callora</string>
+    <string name="action_skip">Skip</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_close">Close</string>
+    <string name="action_save">Save</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_duplicate">Duplicate</string>
+    <string name="action_confirm">Confirm &amp; Proceed</string>
+    <string name="action_copy_code">Copy MMI Code</string>
+    <string name="action_open_call_settings">Open System Call Settings</string>
+    <string name="action_open_dialer">Open System Dialer</string>
+    <string name="action_check_status">Check Status</string>
+    <string name="action_refresh_sims">Refresh SIMs</string>
+    <string name="action_grant_permission">Grant Permission</string>
+    <string name="action_open_app_settings">Open App Settings</string>
+
+    <!-- Dashboard (Screen 3) -->
+    <string name="dashboard_hero_ready_title">Unreachable Protection Ready to Manage</string>
+    <string name="dashboard_hero_ready_body">Configure CFNRc (62) while your SIM has signal and battery. Your mobile operator handles calls if your phone later turns off.</string>
+    <string name="dashboard_hero_warning_perm_title">SIM Discovery Permission Needed</string>
+    <string name="dashboard_hero_warning_perm_body">Grant Phone State access to detect active SIM slots and carrier names, or continue in manual single-SIM dialer mode.</string>
+    <string name="dashboard_hero_warning_reboot_title">Post-Reboot / SIM Review Needed</string>
+    <string name="dashboard_hero_warning_reboot_body">Device restarted or SIM configuration changed. Review your active profile before applying any network changes.</string>
+    <string name="dashboard_section_sims">Active SIM Subscriptions</string>
+    <string name="dashboard_section_active_profile">Active Profile &amp; Network Verification</string>
+    <string name="dashboard_no_active_profile">No profile currently selected</string>
+    <string name="dashboard_no_active_profile_hint">Choose a smart profile or configure CFNRc directly on a SIM card.</string>
+    <string name="dashboard_section_quick_actions">Quick Actions</string>
+    <string name="quick_prepare_unreachable">Prepare Unreachable (CFNRc)</string>
+    <string name="quick_check_status">Check Forwarding Status</string>
+    <string name="quick_restore_intended">Restore Intended Forwarding</string>
+    <string name="quick_favorites">Favorite Numbers</string>
+    <string name="dashboard_section_battery">Battery &amp; Power Readiness</string>
+    <string name="battery_status_charging">%1$d%% • Charging</string>
+    <string name="battery_status_discharging">%1$d%% • On Battery</string>
+    <string name="battery_low_warning">Battery is at or below %1$d%%. Configure CFNRc now—sudden shutdown prevents last-minute network commands.</string>
+    <string name="battery_phone_off_note">Reminder: Carrier networks—not Android apps—route calls once the phone is powered off.</string>
+    <string name="dashboard_section_recent_history">Recent Configuration Activity</string>
+    <string name="dashboard_empty_history">No configuration operations recorded yet.</string>
+    <string name="dashboard_view_all_history">View All</string>
+    <string name="dashboard_troubleshooting_card_title">Need Help with Carrier Codes or Dual-SIM?</string>
+    <string name="dashboard_troubleshooting_card_body">Inspect Bangladesh carrier notes, VoLTE tips, and unverified status guidance.</string>
+
+    <!-- SIM Subscriptions & Forwarding Categories (Screen 4) -->
+    <string name="sim_slot_badge">SIM %1$d</string>
+    <string name="sim_esim_badge">eSIM • Slot %1$d</string>
+    <string name="sim_roaming_badge">Roaming</string>
+    <string name="sim_network_offline">No Cellular Service / Airplane Mode</string>
+    <string name="sim_network_online">Cellular Network Available</string>
+    <string name="sim_masked_number">Line: %1$s</string>
+    <string name="sim_no_active_sims_title">No Active SIM Detected</string>
+    <string name="sim_no_active_sims_body">Insert or enable a SIM/eSIM, or open Android System Call Settings if your SIM is still initializing.</string>
+    <string name="sim_changed_warning_banner">SIM slot or carrier signature changed since your last configuration. Verify each rule before sending commands.</string>
+    <string name="sim_detail_title">SIM %1$d Controls — %2$s</string>
+    <string name="sim_carrier_verification_official">Officially Published GSM Codes</string>
+    <string name="sim_carrier_verification_handset">Official Handset Call Settings Flow</string>
+    <string name="sim_carrier_verification_3gpp">Standard 3GPP GSM MMI (Plan Dependent)</string>
+    <string name="sim_carrier_verification_unverified">Unverified Carrier — Manual Settings Only</string>
+    <string name="sim_baseline_section_title">Intended Normal Forwarding Baseline</string>
+    <string name="sim_baseline_section_body">Saved baseline tells \"Restore Intended Forwarding\" whether you normally keep a service disabled or forwarded to a specific voicemail/backup number.</string>
+    <string name="sim_save_as_disabled_baseline">Save Disabled as My Normal Baseline</string>
+    <string name="sim_save_current_as_baseline">Save Destination as Normal Baseline</string>
+
+    <!-- Forwarding Service Types -->
+    <string name="service_unreachable_title">When Unreachable (CFNRc • 62) — Recommended</string>
+    <string name="service_unreachable_desc">Redirects calls when your phone is powered off, battery depleted, or out of mobile network coverage.</string>
+    <string name="service_busy_title">When Busy (CFB • 67)</string>
+    <string name="service_busy_desc">Redirects incoming calls while you are on another call or decline an incoming call.</string>
+    <string name="service_unanswered_title">When Unanswered (CFNRy • 61)</string>
+    <string name="service_unanswered_desc">Redirects calls if you do not answer within the configured ring timeout (5–30 seconds).</string>
+    <string name="service_unconditional_title">Always / Unconditional (CFU • 21)</string>
+    <string name="service_unconditional_desc">Redirects ALL incoming voice calls immediately without ringing this SIM.</string>
+    <string name="service_ring_timeout_label">Ring Timeout: %1$d seconds</string>
+
+    <!-- Verification & Operation States (Screens 7, 8, 9) -->
+    <string name="state_unknown">Unknown Network State (Not Checked)</string>
+    <string name="state_desired_local">Saved Locally Only (Not Sent)</string>
+    <string name="state_in_progress">Operation in Progress…</string>
+    <string name="state_command_submitted">Command Submitted to Dialer (Unverified)</string>
+    <string name="state_accepted_unverified">Command Accepted (Network State Unverified)</string>
+    <string name="state_verified_active">Verified on Network: Active</string>
+    <string name="state_verified_inactive">Verified on Network: Inactive</string>
+    <string name="state_failed">Last Operation Failed</string>
+    <string name="state_unsupported">Unsupported Direct Capability</string>
+
+    <string name="confirm_dialog_title">Confirm Call Forwarding Action</string>
+    <string name="confirm_label_sim">Target SIM</string>
+    <string name="confirm_label_condition">Forwarding Condition</string>
+    <string name="confirm_label_action">Requested Action</string>
+    <string name="confirm_label_destination">Destination Number</string>
+    <string name="confirm_label_mmi_preview">Prepared Code</string>
+    <string name="confirm_label_verification">Verification Support</string>
+    <string name="confirm_verification_dialer_note">Dialer handoff cannot independently verify carrier activation. You will need to tap Call and read your operator\'s response.</string>
+    <string name="confirm_verification_ussd_note">Will attempt subscription-scoped USSD request; falls back to System Dialer if restricted by Android or carrier.</string>
+    <string name="confirm_verification_settings_note">Will open Android System Call Forwarding Settings for this carrier.</string>
+    <string name="confirm_multisim_checkbox">I will verify that SIM %1$d (%2$s) is selected in the system dialer before pressing Call.</string>
+    <string name="confirm_effect_activate">Incoming calls matching this condition will be redirected by your mobile operator to %1$s and may incur outgoing call charges.</string>
+    <string name="confirm_effect_deactivate">Requests your mobile operator to turn off forwarding for %1$s on SIM %2$d.</string>
+    <string name="confirm_effect_query">Requests current network status for %1$s on SIM %2$d.</string>
+
+    <string name="progress_sheet_title">Submitting Telephony Operation…</string>
+    <string name="progress_sheet_body">Waiting for Android telephony or system dialer handoff. Do not power off the handset until carrier confirmation appears.</string>
+
+    <string name="result_dialog_title">Operation Result &amp; Verification</string>
+    <string name="result_unverified_honest_banner">Command submitted. Network activation could not be independently verified.</string>
+    <string name="result_verified_active_banner">Verified by carrier response: Forwarding is active (%1$s).</string>
+    <string name="result_verified_inactive_banner">Verified by carrier response: Forwarding is currently inactive.</string>
+    <string name="result_failed_banner">Operation did not complete (%1$s). Review the guidance below or use System Call Settings.</string>
+    <string name="result_unsupported_banner">Direct execution is not supported on this carrier or Android version (%1$s). Use the safe System Dialer or System Call Settings below.</string>
+    <string name="result_next_steps_hint">Next recommended step: Check forwarding status (*#code#) in the Phone app or open System Call Settings to confirm carrier state.</string>
+    <string name="copied_to_clipboard">MMI code copied to clipboard</string>
+
+    <!-- Actions Labels -->
+    <string name="action_activate_forwarding">Activate</string>
+    <string name="action_deactivate_forwarding">Deactivate</string>
+    <string name="action_query_forwarding">Check Status</string>
+    <string name="action_restore_forwarding">Restore Baseline</string>
+
+    <!-- Number Validation & Favorites (Screen 12) -->
+    <string name="destination_input_label">Destination Phone Number</string>
+    <string name="destination_input_placeholder">e.g. 017XXXXXXXX or +88017XXXXXXXX</string>
+    <string name="destination_syntactic_disclaimer">Format check only: syntactic validation does not prove a number is active, reachable, or owned by the intended recipient.</string>
+    <string name="destination_mnp_note">MNP Note: In Bangladesh, a number prefix (013–019) reflects original BTRC allocation, not guaranteed current operator.</string>
+    <string name="destination_intl_warning">International destination detected: forwarding calls abroad can incur high per-minute international charges.</string>
+    <string name="error_number_empty">Enter a destination phone number.</string>
+    <string name="error_number_mmi_chars">Number cannot contain *, #, comma, pause, or special MMI characters.</string>
+    <string name="error_number_short_code">Emergency numbers and carrier short codes cannot be used as forwarding destinations.</string>
+    <string name="error_number_bd_prefix">Invalid Bangladesh mobile prefix. Expected 013, 014, 015, 016, 017, 018, or 019.</string>
+    <string name="error_number_bd_length">Bangladesh mobile numbers require 11 digits (01XXXXXXXXX) or +8801XXXXXXXXX.</string>
+    <string name="error_number_self_loop">Destination matches this SIM\'s own number, which creates a forwarding loop.</string>
+    <string name="error_number_format">Enter a valid Bangladesh (01XXXXXXXXX) or international (+CountryCode…) number.</string>
+
+    <string name="favorites_title">Favorite Forwarding Numbers</string>
+    <string name="favorites_subtitle">Save trusted backup SIMs, family lines, or office numbers for quick selection.</string>
+    <string name="favorites_add_title">Add Favorite Number</string>
+    <string name="favorites_label_input">Label (e.g. Backup SIM, Office Desk)</string>
+    <string name="favorites_notes_input">Optional Note</string>
+    <string name="favorites_empty">No favorite destinations saved yet.</string>
+    <string name="favorites_pick_button">Pick Favorite</string>
+
+    <!-- Smart Profiles & Schedule Editor (Screens 5, 6, 11) -->
+    <string name="profiles_title">Smart Forwarding Profiles</string>
+    <string name="profiles_subtitle">Prepare per-SIM rules for unreachable, low-battery, work, or travel scenarios.</string>
+    <string name="profiles_create_new">New Profile</string>
+    <string name="profiles_builtin_badge">Built-in Template</string>
+    <string name="profiles_custom_badge">Custom Profile</string>
+    <string name="profiles_active_selected_badge">Selected Profile</string>
+    <string name="profiles_activate_button">Review &amp; Activate</string>
+    <string name="profiles_deactivate_selection">Clear Active Selection</string>
+    <string name="profiles_advance_setup_notice">Note: \"Phone Unreachable\" and \"Battery Emergency\" configure carrier CFNRc rules while your phone is still powered on. No app can send commands after shutdown.</string>
+    <string name="profile_editor_new_title">Create Forwarding Profile</string>
+    <string name="profile_editor_edit_title">Edit Forwarding Profile</string>
+    <string name="profile_name_label">Profile Name</string>
+    <string name="profile_desc_label">Description</string>
+    <string name="profile_low_battery_label">Low-Battery Reminder Threshold (%1$d%%)</string>
+    <string name="profile_charging_suggest_label">Prompt to activate when device starts charging</string>
+    <string name="profile_rules_section">Per-SIM Forwarding Rules</string>
+    <string name="profile_add_rule_for_sim">Configure Rule for SIM %1$d (%2$s)</string>
+    <string name="profile_no_rules_warning">Add at least one enabled SIM rule with a valid destination before activating this profile.</string>
+
+    <string name="schedule_editor_title">Profile Schedule &amp; Expiration</string>
+    <string name="schedule_enable_label">Enable Scheduled Reminder / Check</string>
+    <string name="schedule_workmanager_disclaimer">Android background limits apply: WorkManager runs deferred checks while the phone is powered on and prompts you to confirm carrier changes. Tasks cannot run while the phone is powered off.</string>
+    <string name="schedule_start_time">Start Window: %1$s</string>
+    <string name="schedule_end_time">End Window: %1$s</string>
+    <string name="schedule_days_label">Active Days</string>
+    <string name="day_mon">Mon</string>
+    <string name="day_tue">Tue</string>
+    <string name="day_wed">Wed</string>
+    <string name="day_thu">Thu</string>
+    <string name="day_fri">Fri</string>
+    <string name="day_sat">Sat</string>
+    <string name="day_sun">Sun</string>
+
+    <!-- Restoration Dialog -->
+    <string name="restore_dialog_title">Restore Intended Forwarding</string>
+    <string name="restore_dialog_intro">Callora does not blindly wipe all carrier services. Review the targeted per-SIM steps below based on your saved baseline and observed history:</string>
+    <string name="restore_empty_plan">No active or previously submitted forwarding rules require restoration. You can still inspect live status on each SIM.</string>
+
+    <!-- Configuration History (Screen 10) -->
+    <string name="history_title">Configuration History</string>
+    <string name="history_disclaimer">Records local Callora configuration requests and status checks only. Callora never accesses incoming call logs or carrier call records.</string>
+    <string name="history_clear_button">Clear History</string>
+    <string name="history_clear_confirm_title">Clear Local Configuration History?</string>
+    <string name="history_clear_confirm_body">This removes local audit entries from Callora. It does not change any forwarding rules currently active on your mobile operator\'s network.</string>
+    <string name="history_empty">No configuration changes have been recorded on this device.</string>
+
+    <!-- Permissions & Compatibility (Screen 13) -->
+    <string name="permissions_title">Permissions &amp; Device Compatibility</string>
+    <string name="permissions_intro">Callora requests only narrowly scoped permissions needed for SIM discovery and alerts. Contacts, SMS, Call Logs, Location, Microphone, and Internet are never requested.</string>
+    <string name="perm_phone_state_title">Phone State (READ_PHONE_STATE)</string>
+    <string name="perm_phone_state_desc">Used to detect active SIM slots, eSIM profiles, and operator MCC/MNC codes. Does NOT grant direct network call-forwarding control.</string>
+    <string name="perm_notifications_title">Notifications (POST_NOTIFICATIONS)</string>
+    <string name="perm_notifications_desc">Used for low-battery CFNRc preparation warnings, scheduled profile reminders, and post-reboot review prompts.</string>
+    <string name="perm_call_phone_title">Optional Direct USSD (CALL_PHONE)</string>
+    <string name="perm_call_phone_desc">Optional. Only used if you explicitly opt into in-app USSD status queries on compatible Android versions. Not required for Safe System Dialer mode.</string>
+    <string name="perm_status_granted">Granted</string>
+    <string name="perm_status_not_granted">Not Granted (Safe Fallback Active)</string>
+    <string name="compat_section_title">Android Platform Reality</string>
+    <string name="compat_system_api_note">Direct CallForwardingInfo APIs require privileged system permissions (MODIFY_PHONE_STATE) unavailable to standard apps. Callora uses safe System Dialer intents, System Call Settings, and optional USSD queries.</string>
+
+    <!-- Troubleshooting Center (Screen 14) -->
+    <string name="troubleshooting_title">Troubleshooting &amp; Carrier Guide</string>
+    <string name="troubleshooting_subtitle">Actionable guidance for Bangladesh SIMs, dual-SIM handsets, VoLTE, and status verification.</string>
+    <string name="ts_topic_phone_off_title">1. Why Forwarding Must Be Configured Before Shutdown</string>
+    <string name="ts_topic_phone_off_body">Once your phone shuts down or battery reaches 0%, no app can transmit commands. Activate When Unreachable (CFNRc • 62) in advance so your operator\'s network redirects calls automatically when your SIM loses signal.</string>
+    <string name="ts_topic_unsupported_op_title">2. Unsupported Operator Service or Plan Restriction</string>
+    <string name="ts_topic_unsupported_op_body">Some prepaid, corporate, or newly activated SIMs require call-divert provisioning or main account balance. On Grameenphone, minute packs and Emergency Balance do not cover diverted calls. Contact carrier care (121) if supplementary services are barred.</string>
+    <string name="ts_topic_invalid_dest_title">3. Invalid Destination Number or Loop</string>
+    <string name="ts_topic_invalid_dest_body">Verify the destination has 11 digits for Bangladesh mobiles (013–019) or full +CountryCode format, is not your own SIM number, and has incoming calls enabled.</string>
+    <string name="ts_topic_wrong_sim_title">4. Dual-SIM: Ensuring the Correct SIM Is Used</string>
+    <string name="ts_topic_wrong_sim_body">Android\'s ACTION_DIAL pre-fills the code in your system dialer, but some OEM dialers default to SIM 1. Always tap the specific Call button for your intended SIM slot.</string>
+    <string name="ts_topic_network_vo_wifi_title">5. Network Unavailable, VoLTE, or Wi-Fi Calling Issues</string>
+    <string name="ts_topic_network_vo_wifi_body">Supplementary service changes require active cellular registration or IMS UT data (VoLTE). Disable Airplane Mode, ensure mobile data/VoLTE is stable, or try via System Call Settings.</string>
+    <string name="ts_topic_perm_denied_title">6. Permission Denied or Permanently Blocked</string>
+    <string name="ts_topic_perm_denied_body">If Phone State permission was denied with \"Don\'t ask again\", open App Settings > Permissions to enable it, or continue copying codes manually into your Phone app.</string>
+    <string name="ts_topic_ussd_failed_title">7. \"Connection Problem or Invalid MMI Code\" Error</string>
+    <string name="ts_topic_ussd_failed_body">This carrier/IMS error occurs when an operator rejects an MMI code, VoLTE UT is temporarily unreachable, or a third-party dialer stripped the trailing # character. Open System Call Settings > Call forwarding instead.</string>
+    <string name="ts_topic_unverified_title">8. Why Status Shows \"Unverified\"</string>
+    <string name="ts_topic_unverified_body">Standard Android apps cannot read the result of a dialer popup. Dial *#62# (or open Phone > Settings > Call forwarding) to inspect your carrier\'s live registration directly.</string>
+    <string name="ts_topic_sim_swap_title">9. SIM Replacement or Slot Reordering</string>
+    <string name="ts_topic_sim_swap_body">When you swap SIM cards or move a SIM between Slot 1 and Slot 2, Callora pauses automatic matching and flags the SIM for review so rules never apply to the wrong line.</string>
+    <string name="ts_topic_reboot_unexpected_title">10. Reboot Recovery &amp; Stopping Unexpected Forwarding</string>
+    <string name="ts_topic_reboot_unexpected_body">Carrier call forwarding stays active even after rebooting or uninstalling Callora! To turn off unexpected forwarding on a SIM, open SIM Controls and deactivate each active condition or check Phone > Settings > Call forwarding.</string>
+
+    <!-- Settings, Backup, Privacy & About (Screens 15, 16, 17) -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_section_appearance_lang">Language &amp; Appearance</string>
+    <string name="settings_language_label">Application Language</string>
+    <string name="settings_theme_label">Theme</string>
+    <string name="theme_system">System Default</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+    <string name="settings_dynamic_color_label">Material You Dynamic Colors (Android 12+)</string>
+    <string name="settings_section_automation">Smart Readiness &amp; Safety</string>
+    <string name="settings_low_battery_toggle">Low-Battery CFNRc Reminder</string>
+    <string name="settings_low_battery_threshold">Alert Threshold: %1$d%%</string>
+    <string name="settings_charging_prompt_toggle">Charging Mode Prompt</string>
+    <string name="settings_reboot_check_toggle">Post-Reboot SIM &amp; Profile Reconciliation</string>
+    <string name="settings_direct_ussd_toggle">Prefer Direct USSD API When Permitted</string>
+    <string name="settings_direct_ussd_desc">Attempts TelephonyManager.sendUssdRequest first when CALL_PHONE is granted; automatically falls back to System Dialer if blocked.</string>
+    <string name="settings_section_backup">Backup, Diagnostics &amp; Maintenance</string>
+    <string name="settings_export_backup">Export Configuration Backup (JSON)</string>
+    <string name="settings_import_backup">Import Configuration Backup (JSON)</string>
+    <string name="settings_import_safety_note">Importing validates schema and phone numbers locally. It NEVER executes network forwarding commands automatically.</string>
+    <string name="settings_export_diagnostics">Export Redacted Diagnostics</string>
+    <string name="settings_backup_success">Backup exported successfully.</string>
+    <string name="settings_import_success">Backup validated and imported safely. No network commands were executed.</string>
+    <string name="settings_import_failed">Import rejected: %1$s</string>
+    <string name="settings_section_legal">Permissions, Privacy &amp; About</string>
+
+    <string name="privacy_title">Privacy Policy</string>
+    <string name="privacy_summary_header">Local-Only Data Architecture</string>
+    <string name="privacy_body_1">1. Zero Server Transmission: Callora does not declare the Android INTERNET permission and operates no backend servers, analytics SDKs, or advertising trackers. All profiles, favorite destination numbers, settings, and configuration history remain strictly on your device.</string>
+    <string name="privacy_body_2">2. Sensitive Data Protection: Destination numbers stored in Callora\'s local database are protected with Android Keystore AES-256-GCM encryption where supported, and automatic cloud/ADB app backup is disabled (allowBackup=false) to prevent unintended exposure. Subscriber phone numbers and diagnostic exports are masked/redacted by default.</string>
+    <string name="privacy_body_3">3. User-Controlled Backups: When you explicitly export a JSON configuration backup, the exported file contains your saved profiles and favorite numbers so they can be restored on your device. Store exported backup files securely.</string>
+    <string name="privacy_body_4">4. Mobile Operator Processing: When you submit a call-forwarding command via the system dialer, USSD, or System Call Settings, your mobile network operator independently processes that request and handles call routing under the operator\'s own tariffs, terms, and privacy policies.</string>
+    <string name="privacy_body_5">5. Contact: Questions regarding Callora\'s privacy practices may be directed to Shohan Khan at helloiamshohan@gmail.com.</string>
+
+    <string name="about_title">About Callora</string>
+    <string name="about_description">Callora is a smart Android call-forwarding and multi-SIM profile assistant designed for Bangladesh and international GSM/VoLTE users, prioritizing truthful carrier verification and advance unreachable (CFNRc) setup.</string>
+    <string name="about_developer_label">Developer / Creator</string>
+    <string name="about_developer_value">Shohan Khan</string>
+    <string name="about_contact_label">Contact &amp; Support</string>
+    <string name="about_contact_email">helloiamshohan@gmail.com</string>
+    <string name="about_send_feedback">Send Email Feedback</string>
+    <string name="about_version_label">Application Version</string>
+    <string name="about_limitations_title">Important Android &amp; Carrier Limitations</string>
+    <string name="about_limitations_body">• Android apps cannot execute commands while powered off or after complete battery depletion; configure CFNRc (62) in advance.\n• Standard third-party apps cannot access privileged @SystemApi CallForwardingInfo directly; network state is only marked Verified when authoritative carrier evidence is received.\n• Carrier forwarding support, VoLTE supplementary services, MNP routing, and call-divert charges depend on your mobile operator and tariff plan.</string>
+    <string name="about_licenses_title">Open-Source Components</string>
+    <string name="about_licenses_body">Built with Kotlin, Android Jetpack (Compose, Material 3, Navigation, Lifecycle, Room, DataStore, WorkManager, AppCompat) licensed under the Apache License, Version 2.0.</string>
+
+    <!-- Notifications -->
+    <string name="notif_channel_alerts_name">Callora Readiness &amp; Profile Alerts</string>
+    <string name="notif_channel_alerts_desc">Low-battery CFNRc warnings, scheduled profile prompts, and post-reboot review reminders.</string>
+    <string name="notif_low_battery_title">Battery Low (%1$d%%) — Check Unreachable Forwarding</string>
+    <string name="notif_low_battery_body">Review CFNRc (62) in Callora while your phone still has power and network signal.</string>
+    <string name="notif_reboot_review_title">Review Callora Forwarding After Restart</string>
+    <string name="notif_reboot_review_body">Tap to verify SIM subscriptions and active forwarding rules. No carrier settings were changed automatically.</string>
+    <string name="notif_schedule_prompt_title">Scheduled Profile Ready: %1$s</string>
+    <string name="notif_schedule_prompt_body">Open Callora to review and confirm carrier forwarding for %1$s.</string>
+</resources>

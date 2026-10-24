@@ -1,0 +1,85 @@
+name: Callora CI
+
+on:
+  push:
+    branches:
+      - main
+      - "arena/**"
+  pull_request:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  verify-and-build:
+    name: Test, Lint & Build (JDK 17 / API 35)
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up JDK 17
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+
+      - name: Setup Gradle with caching
+        uses: gradle/actions/setup-gradle@v4
+
+      - name: Verify English & Bengali localization parity
+        run: |
+          python3 - << 'PY'
+          import re, sys, xml.etree.ElementTree as ET
+          fmt = re.compile(r"%\d+\$[sd]")
+          en = {e.attrib["name"]: (e.text or "") for e in ET.parse("core/ui/src/main/res/values/strings.xml").getroot().findall("string")}
+          bn = {e.attrib["name"]: (e.text or "") for e in ET.parse("core/ui/src/main/res/values-bn/strings.xml").getroot().findall("string")}
+          assert set(en.keys()) == set(bn.keys()), f"Key mismatch: {set(en.keys()) ^ set(bn.keys())}"
+          for k in en:
+              assert bn[k].strip(), f"Empty BN translation for {k}"
+              assert sorted(fmt.findall(en[k])) == sorted(fmt.findall(bn[k])), f"Placeholder mismatch for {k}"
+          print(f"Verified {len(en)} EN/BN localized string pairs.")
+          PY
+
+      - name: Run pure Kotlin & Android unit + Robolectric UI tests
+        run: ./gradlew :core:model:test :core:common:test testDebugUnitTest --stacktrace
+
+      - name: Run Android Lint
+        run: ./gradlew lintDebug --stacktrace
+
+      - name: Assemble Debug APK, Release APK & Release AAB
+        run: ./gradlew assembleDebug assembleRelease bundleRelease --stacktrace
+
+      - name: Generate SHA-256 checksums for build outputs
+        run: |
+          mkdir -p dist-artifacts
+          cp app/build/outputs/apk/debug/*.apk dist-artifacts/
+          cp app/build/outputs/apk/release/*.apk dist-artifacts/
+          cp app/build/outputs/bundle/release/*.aab dist-artifacts/
+          cd dist-artifacts && sha256sum * > SHA256SUMS.txt
+          cat SHA256SUMS.txt
+
+      - name: Upload CI build artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: callora-ci-artifacts
+          path: dist-artifacts/*
+          retention-days: 14
+
+      - name: Upload test & lint reports on failure
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: callora-failure-reports
+          path: |
+            **/build/reports/**
+            **/build/test-results/**
+          retention-days: 14

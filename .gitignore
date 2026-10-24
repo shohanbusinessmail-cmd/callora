@@ -1,0 +1,28 @@
+# Gradle & Android build outputs
+*.iml
+.gradle/
+/local.properties
+/.idea/
+.DS_Store
+/build/
+**/build/
+/captures/
+.externalNativeBuild/
+.cxx/
+
+# Keystores and signing secrets — NEVER commit private keys or credentials
+*.jks
+*.keystore
+keystore.properties
+signing.properties
+google-services.json
+
+# OS / Editor temporary files
+*~
+*.swp
+*.bak
+*.tmp
+Thumbs.db
+
+# Unselected image generation candidates
+Unselected files/

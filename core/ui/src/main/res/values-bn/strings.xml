@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand & Navigation -->
+    <string name="app_name">Callora</string>
+    <string name="app_tagline">স্মার্ট নেটওয়ার্ক কল ফরওয়ার্ডিং ও মাল্টি-সিম প্রোফাইল</string>
+    <string name="nav_dashboard">ড্যাশবোর্ড</string>
+    <string name="nav_sims">সিমসমূহ</string>
+    <string name="nav_profiles">প্রোফাইল</string>
+    <string name="nav_history">ইতিহাস</string>
+    <string name="nav_help">সহায়তা</string>
+    <string name="nav_settings">সেটিংস</string>
+    <string name="cd_change_language">অ্যাপের ভাষা পরিবর্তন করুন</string>
+    <string name="cd_open_settings">সেটিংস খুলুন</string>
+    <string name="cd_navigate_back">পেছনে যান</string>
+
+    <!-- Language Selection & Onboarding (Screens 1 & 2) -->
+    <string name="onboarding_choose_language_title">ভাষা নির্বাচন করুন / Choose Your Language</string>
+    <string name="onboarding_choose_language_subtitle">উপরের বার অথবা সেটিংস থেকে যেকোনো সময় বাংলা ও English পরিবর্তন করতে পারবেন।</string>
+    <string name="language_option_bengali">বাংলা (Bengali)</string>
+    <string name="language_option_english">English</string>
+    <string name="onboarding_step1_title">নেটওয়ার্ক-নির্ভর কল ফরওয়ার্ডিং</string>
+    <string name="onboarding_step1_body">ফোন সম্পূর্ণ বন্ধ হয়ে গেলে বা ব্যাটারি ০% হলে কোনো অ্যান্ড্রয়েড অ্যাপ কোড চালাতে পারে না। ফোন চালু ও নেটওয়ার্কে সচল থাকতেই অপারেটরের নেটওয়ার্কে আনরিচেবল ফরওয়ার্ডিং (CFNRc — কোড 62) আগে থেকে সেট করতে ক্যালোরা আপনাকে সহায়তা করে।</string>
+    <string name="onboarding_step2_title">সত্যনিষ্ঠ যাচাই ও মাল্টি-সিম সুরক্ষা</string>
+    <string name="onboarding_step2_body">শুধু ডায়ালার খোলা মানেই নেটওয়ার্কে ফরওয়ার্ডিং চালু হওয়া নিশ্চিত নয়। ক্যালোরা আপনার সংরক্ষিত প্রোফাইল ও যাচাইকৃত নেটওয়ার্ক অবস্থাকে আলাদাভাবে দেখায় এবং ভুল সিমে কখনো নীরবে কমান্ড চালায় না।</string>
+    <string name="onboarding_step3_title">সম্পূর্ণ লোকাল প্রাইভেসি</string>
+    <string name="onboarding_step3_body">ক্যালোরার কোনো ব্যাকএন্ড সার্ভার নেই এবং এটি ইন্টারনেট পারমিশনও চায় না। আপনার প্রোফাইল, প্রিয় নম্বর ও কনফিগারেশন ইতিহাস আপনার ফোনেই সুরক্ষিত থাকে।</string>
+    <string name="action_continue">পরবর্তী</string>
+    <string name="action_get_started">ক্যালোরা শুরু করুন</string>
+    <string name="action_skip">এড়িয়ে যান</string>
+    <string name="action_cancel">বাতিল</string>
+    <string name="action_close">বন্ধ করুন</string>
+    <string name="action_save">সংরক্ষণ</string>
+    <string name="action_edit">সম্পাদনা</string>
+    <string name="action_delete">মুছে ফেলুন</string>
+    <string name="action_duplicate">ডুপ্লিকেট</string>
+    <string name="action_confirm">নিশ্চিত করুন ও এগিয়ে যান</string>
+    <string name="action_copy_code">MMI কোড কপি করুন</string>
+    <string name="action_open_call_settings">সিস্টেম কল সেটিংস খুলুন</string>
+    <string name="action_open_dialer">সিস্টেম ডায়ালার খুলুন</string>
+    <string name="action_check_status">স্ট্যাটাস দেখুন</string>
+    <string name="action_refresh_sims">সিম রিফ্রেশ করুন</string>
+    <string name="action_grant_permission">অনুমতি দিন</string>
+    <string name="action_open_app_settings">অ্যাপ সেটিংস খুলুন</string>
+
+    <!-- Dashboard (Screen 3) -->
+    <string name="dashboard_hero_ready_title">আনরিচেবল সুরক্ষা ব্যবস্থাপনার জন্য প্রস্তুত</string>
+    <string name="dashboard_hero_ready_body">সিমে নেটওয়ার্ক ও চার্জ থাকতেই CFNRc (62) সেট করে রাখুন। পরে ফোন বন্ধ হলে আপনার মোবাইল অপারেটর নিজেই কল ফরওয়ার্ড করবে।</string>
+    <string name="dashboard_hero_warning_perm_title">সিম শনাক্তকরণ অনুমতি প্রয়োজন</string>
+    <string name="dashboard_hero_warning_perm_body">সচল সিম স্লট ও অপারেটরের নাম দেখতে ফোন স্টেট অনুমতি দিন, অথবা ম্যানুয়াল ডায়ালার মোডে ব্যবহার চালিয়ে যান।</string>
+    <string name="dashboard_hero_warning_reboot_title">রিস্টার্ট / সিম পরিবর্তনের পর পর্যালোচনা প্রয়োজন</string>
+    <string name="dashboard_hero_warning_reboot_body">ডিভাইস রিস্টার্ট হয়েছে অথবা সিম স্লট পরিবর্তিত হয়েছে। নেটওয়ার্কে কোনো পরিবর্তনের আগে আপনার প্রোফাইল যাচাই করুন।</string>
+    <string name="dashboard_section_sims">সচল সিম সাবস্ক্রিপশন</string>
+    <string name="dashboard_section_active_profile">সক্রিয় প্রোফাইল ও নেটওয়ার্ক যাচাই অবস্থা</string>
+    <string name="dashboard_no_active_profile">বর্তমানে কোনো প্রোফাইল নির্বাচিত নেই</string>
+    <string name="dashboard_no_active_profile_hint">একটি স্মার্ট প্রোফাইল বেছে নিন অথবা সরাসরি যেকোনো সিমে CFNRc সেট করুন।</string>
+    <string name="dashboard_section_quick_actions">দ্রুত পদক্ষেপ</string>
+    <string name="quick_prepare_unreachable">আনরিচেবল ফরওয়ার্ডিং (CFNRc)</string>
+    <string name="quick_check_status">ফরওয়ার্ডিং স্ট্যাটাস যাচাই</string>
+    <string name="quick_restore_intended">স্বাভাবিক সেটিংস পুনরুদ্ধার</string>
+    <string name="quick_favorites">প্রিয় নম্বরসমূহ</string>
+    <string name="dashboard_section_battery">ব্যাটারি ও পাওয়ার প্রস্তুতি</string>
+    <string name="battery_status_charging">%1$d%% • চার্জ হচ্ছে</string>
+    <string name="battery_status_discharging">%1$d%% • ব্যাটারিতে চলছে</string>
+    <string name="battery_low_warning">ব্যাটারি %1$d%% বা তার নিচে নেমেছে। হঠাৎ ফোন বন্ধ হয়ে গেলে শেষ মুহূর্তে কমান্ড পাঠানো সম্ভব হবে না—এখনই CFNRc নিশ্চিত করুন।</string>
+    <string name="battery_phone_off_note">মনে রাখুন: ফোন বন্ধ থাকলে অ্যান্ড্রয়েড অ্যাপ নয়, মোবাইল অপারেটরের নেটওয়ার্কই কল ফরওয়ার্ড করে।</string>
+    <string name="dashboard_section_recent_history">সাম্প্রতিক কনফিগারেশন কার্যক্রম</string>
+    <string name="dashboard_empty_history">এখনো কোনো কনফিগারেশন পরিবর্তনের রেকর্ড নেই।</string>
+    <string name="dashboard_view_all_history">সব দেখুন</string>
+    <string name="dashboard_troubleshooting_card_title">অপারেটর কোড বা ডুয়াল-সিম সহায়িকা প্রয়োজন?</string>
+    <string name="dashboard_troubleshooting_card_body">বাংলাদেশি অপারেটর নোট, VoLTE পরামর্শ এবং আনভেরিফায়েড স্ট্যাটাসের সমাধান দেখুন।</string>
+
+    <!-- SIM Subscriptions & Forwarding Categories (Screen 4) -->
+    <string name="sim_slot_badge">সিম %1$d</string>
+    <string name="sim_esim_badge">ই-সিম • স্লট %1$d</string>
+    <string name="sim_roaming_badge">রোমিং</string>
+    <string name="sim_network_offline">মোবাইল নেটওয়ার্ক নেই / এয়ারপ্লেন মোড</string>
+    <string name="sim_network_online">মোবাইল নেটওয়ার্ক সচল</string>
+    <string name="sim_masked_number">লাইন: %1$s</string>
+    <string name="sim_no_active_sims_title">কোনো সচল সিম পাওয়া যায়নি</string>
+    <string name="sim_no_active_sims_body">সিম বা ই-সিম চালু করুন, অথবা সিম লোড হতে থাকলে অ্যান্ড্রয়েড সিস্টেম কল সেটিংস খুলুন।</string>
+    <string name="sim_changed_warning_banner">সর্বশেষ কনফিগারেশনের পর সিম স্লট বা অপারেটর পরিবর্তিত হয়েছে। কমান্ড পাঠানোর আগে প্রতিটি নিয়ম মিলিয়ে নিন।</string>
+    <string name="sim_detail_title">সিম %1$d নিয়ন্ত্রণ — %2$s</string>
+    <string name="sim_carrier_verification_official">অফিসিয়ালি প্রকাশিত GSM কোড</string>
+    <string name="sim_carrier_verification_handset">অফিসিয়াল হ্যান্ডসেট কল সেটিংস পদ্ধতি</string>
+    <string name="sim_carrier_verification_3gpp">স্ট্যান্ডার্ড 3GPP GSM MMI (প্ল্যান নির্ভর)</string>
+    <string name="sim_carrier_verification_unverified">অযাচাইকৃত অপারেটর — শুধুমাত্র ম্যানুয়াল সেটিংস</string>
+    <string name="sim_baseline_section_title">স্বাভাবিক ফরওয়ার্ডিং বেসলাইন</string>
+    <string name="sim_baseline_section_body">\"স্বাভাবিক সেটিংস পুনরুদ্ধার\" ব্যবহারের সময় কোন সার্ভিস বন্ধ থাকবে বা কোন ব্যাকআপ নম্বরে ফিরবে তা এই বেসলাইন নির্ধারণ করে।</string>
+    <string name="sim_save_as_disabled_baseline">বন্ধ অবস্থাকে স্বাভাবিক বেসলাইন হিসেবে রাখুন</string>
+    <string name="sim_save_current_as_baseline">এই নম্বরকে স্বাভাবিক বেসলাইন হিসেবে রাখুন</string>
+
+    <!-- Forwarding Service Types -->
+    <string name="service_unreachable_title">ফোন বন্ধ বা নেটওয়ার্কের বাইরে থাকলে (CFNRc • 62) — অগ্রাধিকার</string>
+    <string name="service_unreachable_desc">ফোন বন্ধ থাকলে, চার্জ শেষ হলে বা নেটওয়ার্কের বাইরে থাকলে ইনকামিং কল নির্ধারিত নম্বরে পাঠাবে।</string>
+    <string name="service_busy_title">কথা বলায় ব্যস্ত থাকলে (CFB • 67)</string>
+    <string name="service_busy_desc">অন্য কলে ব্যস্ত থাকলে বা কল কেটে দিলে ইনকামিং কল নির্ধারিত নম্বরে পাঠাবে।</string>
+    <string name="service_unanswered_title">কল রিসিভ না করলে (CFNRy • 61)</string>
+    <string name="service_unanswered_desc">নির্ধারিত সময়ের মধ্যে (৫–৩০ সেকেন্ড) কল না ধরলে অন্য নম্বরে ফরওয়ার্ড করবে।</string>
+    <string name="service_unconditional_title">সকল কল সবসময় ফরওয়ার্ড (CFU • 21)</string>
+    <string name="service_unconditional_desc">এই সিমে রিং না হয়ে সকল ভয়েস কল সরাসরি নির্ধারিত নম্বরে চলে যাবে।</string>
+    <string name="service_ring_timeout_label">রিং সময়সীমা: %1$d সেকেন্ড</string>
+
+    <!-- Verification & Operation States (Screens 7, 8, 9) -->
+    <string name="state_unknown">নেটওয়ার্ক অবস্থা অজানা (যাচাই করা হয়নি)</string>
+    <string name="state_desired_local">শুধু অ্যাপে সংরক্ষিত (নেটওয়ার্কে পাঠানো হয়নি)</string>
+    <string name="state_in_progress">প্রক্রিয়া চলমান…</string>
+    <string name="state_command_submitted">ডায়ালারে কমান্ড পাঠানো হয়েছে (অযাচাইকৃত)</string>
+    <string name="state_accepted_unverified">কমান্ড গৃহীত (নেটওয়ার্ক অবস্থা স্বতন্ত্রভাবে যাচাইকৃত নয়)</string>
+    <string name="state_verified_active">নেটওয়ার্কে যাচাইকৃত: চালু</string>
+    <string name="state_verified_inactive">নেটওয়ার্কে যাচাইকৃত: বন্ধ</string>
+    <string name="state_failed">সর্বশেষ প্রচেষ্টা ব্যর্থ হয়েছে</string>
+    <string name="state_unsupported">সরাসরি এপিআই অসমর্থিত</string>
+
+    <string name="confirm_dialog_title">কল ফরওয়ার্ডিং পরিবর্তন নিশ্চিত করুন</string>
+    <string name="confirm_label_sim">নির্বাচিত সিম</string>
+    <string name="confirm_label_condition">ফরওয়ার্ডিং শর্ত</string>
+    <string name="confirm_label_action">অনুরোধকৃত কাজ</string>
+    <string name="confirm_label_destination">গন্তব্য নম্বর</string>
+    <string name="confirm_label_mmi_preview">প্রস্তুতকৃত কোড</string>
+    <string name="confirm_label_verification">যাচাই সক্ষমতা</string>
+    <string name="confirm_verification_dialer_note">ডায়ালার খোলার মাধ্যমে অ্যাপ নিজে থেকে নেটওয়ার্ক সক্রিয়তা নিশ্চিত করতে পারে না। আপনাকে ডায়ালারে Call বাটন চাপতে হবে এবং অপারেটরের বার্তা দেখতে হবে।</string>
+    <string name="confirm_verification_ussd_note">নির্দিষ্ট সিমে সরাসরি USSD অনুরোধের চেষ্টা করা হবে; অ্যান্ড্রয়েড বা অপারেটর বাধা দিলে সিস্টেম ডায়ালার বিকল্প দেখানো হবে।</string>
+    <string name="confirm_verification_settings_note">এই অপারেটরের জন্য অ্যান্ড্রয়েডের সিস্টেম কল ফরওয়ার্ডিং সেটিংস খোলা হবে।</string>
+    <string name="confirm_multisim_checkbox">ডায়ালারে Call চাপার আগে আমি নিশ্চিত করব যে সিম %1$d (%2$s) নির্বাচিত আছে।</string>
+    <string name="confirm_effect_activate">এই শর্ত পূরণ হলে আপনার অপারেটর ইনকামিং কল %1$s নম্বরে পাঠাবে এবং এতে আউটগোয়িং কল চার্জ প্রযোজ্য হতে পারে।</string>
+    <string name="confirm_effect_deactivate">সিম %2$d-এ %1$s ফরওয়ার্ডিং বন্ধ করার অনুরোধ পাঠানো হবে।</string>
+    <string name="confirm_effect_query">সিম %2$d-এ %1$s ফরওয়ার্ডিংয়ের বর্তমান অবস্থা জানতে চাওয়া হবে।</string>
+
+    <string name="progress_sheet_title">টেলিফোনি অনুরোধ প্রক্রিয়াধীন…</string>
+    <string name="progress_sheet_body">অ্যান্ড্রয়েড টেলিফোনি অথবা সিস্টেম ডায়ালারের উত্তরের জন্য অপেক্ষা করা হচ্ছে। অপারেটরের নিশ্চিতকরণ না আসা পর্যন্ত ফোন বন্ধ করবেন না।</string>
+
+    <string name="result_dialog_title">ফলাফল ও যাচাই বিবরণ</string>
+    <string name="result_unverified_honest_banner">কমান্ড জমা দেওয়া হয়েছে। নেটওয়ার্কে ফরওয়ার্ডিং চালু হয়েছে কি না তা স্বতন্ত্রভাবে যাচাই করা যায়নি।</string>
+    <string name="result_verified_active_banner">অপারেটরের উত্তরে যাচাইকৃত: ফরওয়ার্ডিং চালু আছে (%1$s)।</string>
+    <string name="result_verified_inactive_banner">অপারেটরের উত্তরে যাচাইকৃত: ফরওয়ার্ডিং বর্তমানে বন্ধ আছে।</string>
+    <string name="result_failed_banner">প্রক্রিয়াটি সম্পন্ন হয়নি (%1$s)। নিচের নির্দেশনা দেখুন অথবা সিস্টেম কল সেটিংস ব্যবহার করুন।</string>
+    <string name="result_unsupported_banner">এই অপারেটর বা অ্যান্ড্রয়েড সংস্করণে সরাসরি কমান্ড সমর্থিত নয় (%1$s)। নিচের নিরাপদ ডায়ালার বা সিস্টেম কল সেটিংস ব্যবহার করুন।</string>
+    <string name="result_next_steps_hint">পরবর্তী করণীয়: ফোন অ্যাপে স্ট্যাটাস কোড (*#কোড#) ডায়াল করুন অথবা সিস্টেম কল সেটিংস খুলে অপারেটরের প্রকৃত অবস্থা নিশ্চিত করুন।</string>
+    <string name="copied_to_clipboard">MMI কোড ক্লিপবোর্ডে কপি হয়েছে</string>
+
+    <!-- Actions Labels -->
+    <string name="action_activate_forwarding">চালু করুন</string>
+    <string name="action_deactivate_forwarding">বন্ধ করুন</string>
+    <string name="action_query_forwarding">স্ট্যাটাস দেখুন</string>
+    <string name="action_restore_forwarding">বেসলাইন পুনরুদ্ধার</string>
+
+    <!-- Number Validation & Favorites (Screen 12) -->
+    <string name="destination_input_label">গন্তব্য ফোন নম্বর</string>
+    <string name="destination_input_placeholder">যেমন: 017XXXXXXXX বা +88017XXXXXXXX</string>
+    <string name="destination_syntactic_disclaimer">শুধুমাত্র ফরম্যাট যাচাই: নম্বরটি সচল, নেটওয়ার্কে যুক্ত বা কাঙ্ক্ষিত ব্যক্তির কি না তা ফরম্যাট দেখে নিশ্চিত করা সম্ভব নয়।</string>
+    <string name="destination_mnp_note">MNP তথ্য: বাংলাদেশে নম্বরের প্রিফিক্স (013–019) মূল BTRC বরাদ্দ নির্দেশ করে, বর্তমান অপারেটর নিশ্চিত করে না।</string>
+    <string name="destination_intl_warning">আন্তর্জাতিক নম্বর শনাক্ত হয়েছে: বিদেশে কল ফরওয়ার্ড করলে উচ্চ আন্তর্জাতিক কল চার্জ প্রযোজ্য হতে পারে।</string>
+    <string name="error_number_empty">একটি গন্তব্য ফোন নম্বর লিখুন।</string>
+    <string name="error_number_mmi_chars">নম্বরে *, #, কমা বা বিশেষ MMI চিহ্ন ব্যবহার করা যাবে না।</string>
+    <string name="error_number_short_code">জরুরি সেবা বা শর্ট কোড নম্বরে কল ফরওয়ার্ড করা যাবে না।</string>
+    <string name="error_number_bd_prefix">বাংলাদেশি মোবাইল প্রিফিক্স সঠিক নয়। 013, 014, 015, 016, 017, 018 বা 019 ব্যবহার করুন।</string>
+    <string name="error_number_bd_length">বাংলাদেশি মোবাইল নম্বরে ১১ ডিজিট (01XXXXXXXXX) অথবা +8801XXXXXXXXX থাকতে হবে।</string>
+    <string name="error_number_self_loop">গন্তব্য নম্বরটি এই সিমের নিজস্ব নম্বরের সাথে মিলে গেছে, ফলে ফরওয়ার্ডিং লুপ তৈরি হবে।</string>
+    <string name="error_number_format">সঠিক বাংলাদেশি (01XXXXXXXXX) অথবা আন্তর্জাতিক (+দেশের_কোড…) নম্বর লিখুন।</string>
+
+    <string name="favorites_title">প্রিয় ফরওয়ার্ডিং নম্বরসমূহ</string>
+    <string name="favorites_subtitle">দ্রুত নির্বাচনের জন্য বিশ্বস্ত ব্যাকআপ সিম, পরিবারের নম্বর বা অফিসের নম্বর সংরক্ষণ করুন।</string>
+    <string name="favorites_add_title">প্রিয় নম্বর যোগ করুন</string>
+    <string name="favorites_label_input">নাম / লেবেল (যেমন: ব্যাকআপ সিম, অফিস ডেস্ক)</string>
+    <string name="favorites_notes_input">ঐচ্ছিক নোট</string>
+    <string name="favorites_empty">এখনো কোনো প্রিয় নম্বর সংরক্ষণ করা হয়নি।</string>
+    <string name="favorites_pick_button">প্রিয় নম্বর বাছুন</string>
+
+    <!-- Smart Profiles & Schedule Editor (Screens 5, 6, 11) -->
+    <string name="profiles_title">স্মার্ট ফরওয়ার্ডিং প্রোফাইল</string>
+    <string name="profiles_subtitle">আনরিচেবল, লো-ব্যাটারি, অফিস বা ভ্রমণের জন্য সিমভিত্তিক নিয়ম প্রস্তুত রাখুন।</string>
+    <string name="profiles_create_new">নতুন প্রোফাইল</string>
+    <string name="profiles_builtin_badge">বিল্ট-ইন টেমপ্লেট</string>
+    <string name="profiles_custom_badge">কাস্টম প্রোফাইল</string>
+    <string name="profiles_active_selected_badge">নির্বাচিত প্রোফাইল</string>
+    <string name="profiles_activate_button">পর্যালোচনা ও চালু করুন</string>
+    <string name="profiles_deactivate_selection">সক্রিয় নির্বাচন সরান</string>
+    <string name="profiles_advance_setup_notice">গুরুত্বপূর্ণ: \"Phone Unreachable\" ও \"Battery Emergency\" প্রোফাইল ফোন সচল থাকতেই নেটওয়ার্কে CFNRc সেট করে। ফোন বন্ধ হওয়ার পর কোনো অ্যাপ কমান্ড পাঠাতে পারে না।</string>
+    <string name="profile_editor_new_title">নতুন ফরওয়ার্ডিং প্রোফাইল তৈরি</string>
+    <string name="profile_editor_edit_title">ফরওয়ার্ডিং প্রোফাইল সম্পাদনা</string>
+    <string name="profile_name_label">প্রোফাইলের নাম</string>
+    <string name="profile_desc_label">বিবরণ</string>
+    <string name="profile_low_battery_label">লো-ব্যাটারি সতর্কতা সীমা (%1$d%%)</string>
+    <string name="profile_charging_suggest_label">চার্জ শুরু হলে প্রোফাইল চালুর রিমাইন্ডার দিন</string>
+    <string name="profile_rules_section">সিমভিত্তিক ফরওয়ার্ডিং নিয়ম</string>
+    <string name="profile_add_rule_for_sim">সিম %1$d (%2$s)-এর নিয়ম সেট করুন</string>
+    <string name="profile_no_rules_warning">প্রোফাইল চালু করার আগে অন্তত একটি সিমে সঠিক গন্তব্য নম্বরসহ নিয়ম যুক্ত করুন।</string>
+
+    <string name="schedule_editor_title">প্রোফাইল সময়সূচি ও মেয়াদ</string>
+    <string name="schedule_enable_label">নির্ধারিত সময়ের রিমাইন্ডার ও যাচাই চালু করুন</string>
+    <string name="schedule_workmanager_disclaimer">অ্যান্ড্রয়েডের ব্যাকগ্রাউন্ড সীমাবদ্ধতা প্রযোজ্য: ফোন চালু থাকলে WorkManager নির্ধারিত সময়ে আপনাকে নিশ্চিতকরণের রিমাইন্ডার দেবে। ফোন বন্ধ থাকলে কোনো শিডিউল কাজ করতে পারে না।</string>
+    <string name="schedule_start_time">শুরুর সময়: %1$s</string>
+    <string name="schedule_end_time">শেষের সময়: %1$s</string>
+    <string name="schedule_days_label">সক্রিয় দিনসমূহ</string>
+    <string name="day_mon">সোম</string>
+    <string name="day_tue">মঙ্গল</string>
+    <string name="day_wed">বুধ</string>
+    <string name="day_thu">বৃহঃ</string>
+    <string name="day_fri">শুক্র</string>
+    <string name="day_sat">শনি</string>
+    <string name="day_sun">রবি</string>
+
+    <!-- Restoration Dialog -->
+    <string name="restore_dialog_title">স্বাভাবিক ফরওয়ার্ডিং পুনরুদ্ধার</string>
+    <string name="restore_dialog_intro">ক্যালোরা অন্ধভাবে সব সার্ভিস মুছে ফেলে না। আপনার সংরক্ষিত বেসলাইন ও পূর্ববর্তী রেকর্ডের ভিত্তিতে নিচের ধাপগুলো পর্যালোচনা করুন:</string>
+    <string name="restore_empty_plan">পুনরুদ্ধার করার মতো কোনো পূর্ববর্তী ফরওয়ার্ডিং অনুরোধ পাওয়া যায়নি। তবুও প্রতিটি সিমের স্ট্যাটাস যাচাই করতে পারেন।</string>
+
+    <!-- Configuration History (Screen 10) -->
+    <string name="history_title">কনফিগারেশন ইতিহাস</string>
+    <string name="history_disclaimer">এখানে শুধুমাত্র ক্যালোরা অ্যাপের মাধ্যমে করা কনফিগারেশন প্রচেষ্টা ও স্ট্যাটাস যাচাই সংরক্ষিত থাকে। ক্যালোরা কখনো ইনকামিং কল লগ বা অপারেটরের কল রেকর্ড সংগ্রহ করে না।</string>
+    <string name="history_clear_button">ইতিহাস মুছুন</string>
+    <string name="history_clear_confirm_title">লোকাল কনফিগারেশন ইতিহাস মুছে ফেলবেন?</string>
+    <string name="history_clear_confirm_body">এতে শুধুমাত্র অ্যাপের লোকাল রেকর্ড মুছে যাবে। মোবাইল অপারেটরের নেটওয়ার্কে চালু থাকা কোনো ফরওয়ার্ডিং নিয়ম এতে পরিবর্তিত হবে না।</string>
+    <string name="history_empty">এই ডিভাইসে এখনো কোনো কনফিগারেশন ইতিহাস রেকর্ড হয়নি।</string>
+
+    <!-- Permissions & Compatibility (Screen 13) -->
+    <string name="permissions_title">অনুমতি ও ডিভাইস সামঞ্জস্যতা</string>
+    <string name="permissions_intro">ক্যালোরা শুধুমাত্র সিম শনাক্তকরণ ও সতর্কবার্তার জন্য ন্যূনতম অনুমতি চায়। কন্টাক্টস, এসএমএস, কল লগ, লোকেশন, মাইক্রোফোন বা ইন্টারনেট অনুমতি কখনো চাওয়া হয় না।</string>
+    <string name="perm_phone_state_title">ফোন স্টেট (READ_PHONE_STATE)</string>
+    <string name="perm_phone_state_desc">সচল সিম স্লট, ই-সিম এবং অপারেটর কোড (MCC/MNC) চেনার জন্য ব্যবহৃত হয়। এটি সরাসরি নেটওয়ার্ক কল ফরওয়ার্ডিং পরিবর্তনের ক্ষমতা দেয় না।</string>
+    <string name="perm_notifications_title">নোটিফিকেশন (POST_NOTIFICATIONS)</string>
+    <string name="perm_notifications_desc">লো-ব্যাটারি CFNRc সতর্কতা, শিডিউল রিমাইন্ডার এবং রিস্টার্ট-পরবর্তী পর্যালোচনার বার্তার জন্য ব্যবহৃত হয়।</string>
+    <string name="perm_call_phone_title">ঐচ্ছিক সরাসরি USSD (CALL_PHONE)</string>
+    <string name="perm_call_phone_desc">সম্পূর্ণ ঐচ্ছিক। কেবলমাত্র সমর্থিত ডিভাইসে অ্যাপের ভেতর থেকে সরাসরি USSD স্ট্যাটাস চেক চাইলে ব্যবহৃত হয়। নিরাপদ সিস্টেম ডায়ালার মোডের জন্য এটি প্রয়োজন নেই।</string>
+    <string name="perm_status_granted">অনুমোদিত</string>
+    <string name="perm_status_not_granted">অনুমোদিত নয় (নিরাপদ বিকল্প সচল)</string>
+    <string name="compat_section_title">অ্যান্ড্রয়েড প্ল্যাটফর্ম বাস্তবতা</string>
+    <string name="compat_system_api_note">সরাসরি CallForwardingInfo এপিআই ব্যবহারের জন্য সিস্টেম স্তরের বিশেষ অনুমতি (MODIFY_PHONE_STATE) লাগে যা সাধারণ অ্যাপ পায় না। তাই ক্যালোরা নিরাপদ সিস্টেম ডায়ালার, সিস্টেম কল সেটিংস ও ঐচ্ছিক USSD ব্যবহার করে।</string>
+
+    <!-- Troubleshooting Center (Screen 14) -->
+    <string name="troubleshooting_title">সমস্যা সমাধান ও অপারেটর সহায়িকা</string>
+    <string name="troubleshooting_subtitle">বাংলাদেশি সিম, ডুয়াল-সিম হ্যান্ডসেট, VoLTE এবং স্ট্যাটাস যাচাইয়ের কার্যকর সমাধান।</string>
+    <string name="ts_topic_phone_off_title">১. ফোন বন্ধ হওয়ার আগেই কেন ফরওয়ার্ডিং সেট করতে হয়</string>
+    <string name="ts_topic_phone_off_body">ফোন বন্ধ হলে বা ব্যাটারি ০% হয়ে গেলে কোনো অ্যাপ নেটওয়ার্কে কমান্ড পাঠাতে পারে না। তাই ফোন সচল থাকতেই CFNRc (62) চালু রাখুন যাতে সিগন্যাল বিচ্ছিন্ন হলে অপারেটর নিজেই কল ফরওয়ার্ড করে।</string>
+    <string name="ts_topic_unsupported_op_title">২. অপারেটরে সার্ভিস অসমর্থিত বা ব্যালেন্স শর্ত</string>
+    <string name="ts_topic_unsupported_op_body">কিছু প্রিপেইড বা কর্পোরেট সিমে মূল ব্যালেন্স না থাকলে ডাইভার্ট কাজ করে না। গ্রামীণফোনে মিনিট প্যাক বা ইমার্জেন্সি ব্যালেন্স কল ফরওয়ার্ডিংয়ে প্রযোজ্য নয়। সমস্যায় ১২১-এ যোগাযোগ করুন।</string>
+    <string name="ts_topic_invalid_dest_title">৩. ভুল গন্তব্য নম্বর বা ফরওয়ার্ডিং লুপ</string>
+    <string name="ts_topic_invalid_dest_body">বাংলাদেশি মোবাইল নম্বরে ১১ ডিজিট (013–019) অথবা আন্তর্জাতিক নম্বরে +দেশের_কোড নিশ্চিত করুন এবং নিজের সিম নম্বর গন্তব্য হিসেবে দেবেন না।</string>
+    <string name="ts_topic_wrong_sim_title">৪. ডুয়াল-সিম ফোনে সঠিক সিম নির্বাচন</string>
+    <string name="ts_topic_wrong_sim_body">সিস্টেম ডায়ালারে কোড প্রি-ফিল হলেও কিছু ফোনে ডিফল্টভাবে সিম ১ ব্যবহৃত হতে পারে। তাই ডায়ালারে অবশ্যই কাঙ্ক্ষিত সিমের Call বাটনে চাপ দিন।</string>
+    <string name="ts_topic_network_vo_wifi_title">৫. নেটওয়ার্ক না থাকা, VoLTE বা Wi-Fi Calling সমস্যা</string>
+    <string name="ts_topic_network_vo_wifi_body">কল ফরওয়ার্ডিং পরিবর্তনের সময় মোবাইল নেটওয়ার্ক ও VoLTE সংযোগ সচল থাকা জরুরি। এয়ারপ্লেন মোড বন্ধ করুন অথবা সিস্টেম কল সেটিংস থেকে চেষ্টা করুন।</string>
+    <string name="ts_topic_perm_denied_title">৬. অনুমতি প্রত্যাখ্যাত হলে করণীয়</string>
+    <string name="ts_topic_perm_denied_body">\"Don\'t ask again\" দিয়ে অনুমতি বন্ধ করে থাকলে অ্যাপ সেটিংস > Permissions থেকে চালু করতে পারেন, অথবা অনুমতি ছাড়াই কোড কপি করে ডায়ালারে ব্যবহার করতে পারেন।</string>
+    <string name="ts_topic_ussd_failed_title">৭. \"Connection problem or invalid MMI code\" ত্রুটি</string>
+    <string name="ts_topic_ussd_failed_body">VoLTE সংযোগে সাময়িক সমস্যা হলে বা ডায়ালারে শেষের # চিহ্ন বাদ পড়লে এই বার্তা আসে। এক্ষেত্রে সরাসরি সিস্টেম কল সেটিংস > Call forwarding ব্যবহার করুন।</string>
+    <string name="ts_topic_unverified_title">৮. স্ট্যাটাস কেন \"অযাচাইকৃত\" দেখায়</string>
+    <string name="ts_topic_unverified_body">সিস্টেম ডায়ালারের পপআপ বার্তা সাধারণ অ্যান্ড্রয়েড অ্যাপ পড়তে পারে না। নিশ্চিত হতে ডায়ালারে *#62# ডায়াল করুন অথবা Phone > Settings > Call forwarding দেখুন।</string>
+    <string name="ts_topic_sim_swap_title">৯. সিম পরিবর্তন বা স্লট অদলবদল</string>
+    <string name="ts_topic_sim_swap_body">নতুন সিম লাগালে বা সিম ১ ও সিম ২ অদলবদল করলে ক্যালোরা স্বয়ংক্রিয়ভাবে পুরোনো নিয়ম প্রয়োগ না করে আপনাকে পুনরায় যাচাই করতে বলে।</string>
+    <string name="ts_topic_reboot_unexpected_title">১০. রিস্টার্ট ও অনাকাঙ্ক্ষিত ফরওয়ার্ডিং বন্ধ করা</string>
+    <string name="ts_topic_reboot_unexpected_body">ফোন রিস্টার্ট করলে বা অ্যাপ আনইনস্টল করলেও অপারেটরের নেটওয়ার্কে কল ফরওয়ার্ডিং চালু থাকে! অনাকাঙ্ক্ষিত ডাইভার্ট বন্ধ করতে সিম কন্ট্রোল থেকে সংশ্লিষ্ট সার্ভিস বন্ধ করুন।</string>
+
+    <!-- Settings, Backup, Privacy & About (Screens 15, 16, 17) -->
+    <string name="settings_title">সেটিংস</string>
+    <string name="settings_section_appearance_lang">ভাষা ও অ্যাপিয়ারেন্স</string>
+    <string name="settings_language_label">অ্যাপের ভাষা</string>
+    <string name="settings_theme_label">থিম</string>
+    <string name="theme_system">সিস্টেম ডিফল্ট</string>
+    <string name="theme_light">লাইট</string>
+    <string name="theme_dark">ডার্ক</string>
+    <string name="settings_dynamic_color_label">ম্যাটেরিয়াল ইউ ডায়নামিক কালার (Android 12+)</string>
+    <string name="settings_section_automation">স্মার্ট প্রস্তুতি ও সুরক্ষা</string>
+    <string name="settings_low_battery_toggle">লো-ব্যাটারি CFNRc সতর্কতা</string>
+    <string name="settings_low_battery_threshold">সতর্কতা সীমা: %1$d%%</string>
+    <string name="settings_charging_prompt_toggle">চার্জিং মোড রিমাইন্ডার</string>
+    <string name="settings_reboot_check_toggle">রিস্টার্ট-পরবর্তী সিম ও প্রোফাইল যাচাই</string>
+    <string name="settings_direct_ussd_toggle">সমর্থিত ক্ষেত্রে সরাসরি USSD এপিআই ব্যবহার করুন</string>
+    <string name="settings_direct_ussd_desc">CALL_PHONE অনুমতি থাকলে প্রথমে সরাসরি USSD চেষ্টা করবে; বাধা পেলে স্বয়ংক্রিয়ভাবে সিস্টেম ডায়ালার দেখাবে।</string>
+    <string name="settings_section_backup">ব্যাকআপ, ডায়াগনস্টিকস ও রক্ষণাবেক্ষণ</string>
+    <string name="settings_export_backup">কনফিগারেশন ব্যাকআপ এক্সপোর্ট (JSON)</string>
+    <string name="settings_import_backup">কনফিগারেশন ব্যাকআপ ইমপোর্ট (JSON)</string>
+    <string name="settings_import_safety_note">ইমপোর্ট করার সময় ফাইল ও ফোন নম্বর যাচাই করা হয়। ফাইল ইমপোর্ট করলে কখনো স্বয়ংক্রিয়ভাবে নেটওয়ার্কে ফরওয়ার্ডিং কমান্ড চলে না।</string>
+    <string name="settings_export_diagnostics">গোপনীয়তা-সুরক্ষিত ডায়াগনস্টিক এক্সপোর্ট</string>
+    <string name="settings_backup_success">ব্যাকআপ সফলভাবে এক্সপোর্ট হয়েছে।</string>
+    <string name="settings_import_success">ব্যাকআপ যাচাই ও সংরক্ষণ সম্পন্ন হয়েছে। কোনো নেটওয়ার্ক কমান্ড চালানো হয়নি।</string>
+    <string name="settings_import_failed">ইমপোর্ট বাতিল হয়েছে: %1$s</string>
+    <string name="settings_section_legal">অনুমতি, প্রাইভেসি ও পরিচিতি</string>
+
+    <string name="privacy_title">প্রাইভেসি পলিসি</string>
+    <string name="privacy_summary_header">সম্পূর্ণ লোকাল ডেটা সুরক্ষা</string>
+    <string name="privacy_body_1">১. শূন্য সার্ভার ডেটা আদান-প্রদান: ক্যালোরা অ্যাপে কোনো INTERNET পারমিশন নেই এবং কোনো বাহ্যিক সার্ভার, অ্যানালিটিক্স বা বিজ্ঞাপন ট্র্যাকার ব্যবহৃত হয় না। আপনার সকল প্রোফাইল, প্রিয় নম্বর, সেটিংস ও ইতিহাস কেবল আপনার ডিভাইসেই থাকে।</string>
+    <string name="privacy_body_2">২. সংবেদনশীল তথ্যের সুরক্ষা: লোকাল ডাটাবেজে সংরক্ষিত গন্তব্য নম্বরসমূহ সমর্থিত ডিভাইসে Android Keystore AES-256-GCM এনক্রিপশনের মাধ্যমে সুরক্ষিত থাকে এবং অপ্রত্যাশিত ক্লাউড ব্যাকআপ এড়াতে অটো-ব্যাকআপ বন্ধ (allowBackup=false) রাখা হয়েছে। ডায়াগনস্টিক রিপোর্টে ব্যক্তিগত নম্বর স্বয়ংক্রিয়ভাবে গোপন করা হয়।</string>
+    <string name="privacy_body_3">৩. ব্যবহারকারী-নিয়ন্ত্রিত ব্যাকআপ: আপনি নিজে JSON ব্যাকআপ এক্সপোর্ট করলে তাতে আপনার সংরক্ষিত প্রোফাইল ও প্রিয় নম্বর থাকে যাতে পুনরায় ইমপোর্ট করতে পারেন। ব্যাকআপ ফাইল নিরাপদ স্থানে সংরক্ষণ করুন।</string>
+    <string name="privacy_body_4">৪. মোবাইল অপারেটরের ভূমিকা: ডায়ালার, USSD বা সিস্টেম কল সেটিংসের মাধ্যমে কল ফরওয়ার্ডিং চালু করলে আপনার মোবাইল অপারেটর নিজস্ব নীতিমালা ও ট্যারিফ অনুযায়ী কল রাউটিং পরিচালনা করে।</string>
+    <string name="privacy_body_5">৫. যোগাযোগ: প্রাইভেসি সংক্রান্ত যেকোনো প্রশ্নের জন্য ডেভেলপার Shohan Khan-এর সাথে helloiamshohan@gmail.com ঠিকানায় যোগাযোগ করতে পারেন।</string>
+
+    <string name="about_title">ক্যালোরা সম্পর্কে</string>
+    <string name="about_description">ক্যালোরা একটি স্মার্ট অ্যান্ড্রয়েড কল ফরওয়ার্ডিং ও মাল্টি-সিম প্রোফাইল ব্যবস্থাপনা অ্যাপ, যা বাংলাদেশ ও আন্তর্জাতিক GSM/VoLTE ব্যবহারকারীদের জন্য সত্যনিষ্ঠ যাচাই ও অগ্রিম আনরিচেবল (CFNRc) সুরক্ষাকে অগ্রাধিকার দেয়।</string>
+    <string name="about_developer_label">ডেভেলপার / নির্মাতা</string>
+    <string name="about_developer_value">Shohan Khan</string>
+    <string name="about_contact_label">যোগাযোগ ও সহায়তা</string>
+    <string name="about_contact_email">helloiamshohan@gmail.com</string>
+    <string name="about_send_feedback">ইমেইলে মতামত পাঠান</string>
+    <string name="about_version_label">অ্যাপ সংস্করণ</string>
+    <string name="about_limitations_title">অ্যান্ড্রয়েড ও অপারেটর সীমাবদ্ধতাসমূহ</string>
+    <string name="about_limitations_body">• ফোন বন্ধ থাকলে বা ব্যাটারি সম্পূর্ণ শেষ হয়ে গেলে কোনো অ্যাপ কমান্ড পাঠাতে পারে না; ফোন সচল থাকতেই CFNRc (62) সেট করুন।\n• সাধারণ অ্যাপ সরাসরি সিস্টেম CallForwardingInfo এপিআই ব্যবহার করতে পারে না; অপারেটরের প্রামাণ্য উত্তর ছাড়া স্ট্যাটাস কখনো যাচাইকৃত দেখানো হয় না।\n• ফরওয়ার্ডিং সুবিধা, VoLTE সাপোর্ট, MNP রাউটিং ও কল চার্জ সম্পূর্ণভাবে আপনার মোবাইল অপারেটর ও প্যাকেজের ওপর নির্ভরশীল।</string>
+    <string name="about_licenses_title">ওপেন-সোর্স লাইসেন্স</string>
+    <string name="about_licenses_body">Kotlin এবং Android Jetpack (Compose, Material 3, Navigation, Lifecycle, Room, DataStore, WorkManager, AppCompat) ব্যবহার করে নির্মিত — Apache License, Version 2.0-এর অধীনে লাইসেন্সকৃত।</string>
+
+    <!-- Notifications -->
+    <string name="notif_channel_alerts_name">ক্যালোরা প্রস্তুতি ও প্রোফাইল বার্তা</string>
+    <string name="notif_channel_alerts_desc">লো-ব্যাটারি CFNRc সতর্কতা, শিডিউল প্রোফাইল রিমাইন্ডার ও রিস্টার্ট-পরবর্তী যাচাই বার্তা।</string>
+    <string name="notif_low_battery_title">ব্যাটারি কম (%1$d%%) — আনরিচেবল ফরওয়ার্ডিং যাচাই করুন</string>
+    <string name="notif_low_battery_body">ফোনে চার্জ ও নেটওয়ার্ক থাকতেই ক্যালোরায় CFNRc (62) নিশ্চিত করুন।</string>
+    <string name="notif_reboot_review_title">রিস্টার্টের পর ক্যালোরা ফরওয়ার্ডিং যাচাই করুন</string>
+    <string name="notif_reboot_review_body">সিম সাবস্ক্রিপশন ও প্রোফাইল মিলিয়ে দেখতে ট্যাপ করুন। কোনো অপারেটর সেটিংস স্বয়ংক্রিয়ভাবে পরিবর্তন করা হয়নি।</string>
+    <string name="notif_schedule_prompt_title">নির্ধারিত প্রোফাইলের সময় হয়েছে: %1$s</string>
+    <string name="notif_schedule_prompt_body">%1$s প্রোফাইলটি পর্যালোচনা ও নিশ্চিত করতে ক্যালোরা খুলুন।</string>
+</resources>

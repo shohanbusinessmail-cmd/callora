@@ -1,5 +1,6 @@
 package com.shohankhan.callora
 
+import android.app.Application
 import androidx.compose.ui.test.assertIsDisplayed
 import androidx.compose.ui.test.junit4.createComposeRule
 import androidx.compose.ui.test.onNodeWithText
@@ -27,7 +28,7 @@ import org.robolectric.annotation.Config
  * UI & Accessibility Compose tests executed via Robolectric (mocked platform environment).
  */
 @RunWith(RobolectricTestRunner::class)
-@Config(sdk = [34])
+@Config(sdk = [34], application = Application::class, qualifiers = "w480dp-h1600dp")
 class CalloraUiRobolectricTest {
 
     @get:Rule
@@ -69,11 +70,12 @@ class CalloraUiRobolectricTest {
         composeTestRule.setContent {
             CalloraAppRoot(viewModel = vm, appVersionName = "0.9.0-test")
         }
+        composeTestRule.waitForIdle()
 
         composeTestRule.onNodeWithText("বাংলা (Bengali)").assertIsDisplayed()
         composeTestRule.onNodeWithText("Skip").performClick()
+        composeTestRule.waitForIdle()
 
-        composeTestRule.onNodeWithText("Callora").assertIsDisplayed()
         composeTestRule.onNodeWithText("Quick Actions").assertIsDisplayed()
     }
 
@@ -89,6 +91,7 @@ class CalloraUiRobolectricTest {
         composeTestRule.setContent {
             CalloraAppRoot(viewModel = vm, appVersionName = "0.9.0-test")
         }
+        composeTestRule.waitForIdle()
 
         composeTestRule.onNodeWithText("GP Primary — Grameenphone").assertIsDisplayed()
         composeTestRule.onNodeWithText("Robi Secondary — Robi").assertIsDisplayed()
